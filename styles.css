@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color:rgba(0, 66, 37, 1);
+}
+header {
+  background-color: rgba(0, 66, 37, 1);
+  padding: 60px;
+  text-align: center;
+  color:rgba(192,192,192, 1);
+  font-family: serif;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1.5;
+  background: #ccc;
+}
+aside {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 0.25;
+  background: rgba(0, 66, 37, 1);
+  color: #ccc;
+  font-family: serif;
+  word-spacing: 3px;
+  text-align: center;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color:#ccc;
+  padding: 50px;
+  color: rgba(0,66, 37, 1);
+  font-family: serif;
+  word-spacing: 3px;
+  text-align: center;
+}
+
+/* Style the footer */
+footer {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: rgba(0, 66, 37, 1);
+  color: rgba(192,192,192, 1);
+  font-family: serif;
+  text-align: center;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.bentley{
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+  image-rendering: smooth;
+  webkit-transition: all 0.2s;
+  moz-transition: all 0.2s;
+  ms-transition: all 0.2s;
+  o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.bentley:hover {
+     transform:scale(1.1);
+}
+.bentley_logo{
+  width: 30%;
+  object-fit: contain;
+  position: relative;
+  image-rendering: smooth;
+  webkit-transition: all 0.2s;
+  moz-transition: all 0.2s;
+  ms-transition: all 0.2s;
+  o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.bentley_logo:hover {
+     transform:scale(1.2);
+}
+.ferrari{
+  width: 100%;
+  object-fit: fill;
+  image-rendering: smooth;
+  webkit-transition: all 0.2s;
+  moz-transition: all 0.2s;
+  ms-transition: all 0.2s;
+  o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.ferrari:hover {
+     transform:scale(1.1);
+}
+.rwb{
+  width:100%;
+  object-fit: fill;
+  image-rendering: smooth;
+  webkit-transition: all 0.2s;
+  moz-transition: all 0.2s;
+  ms-transition: all 0.2s;
+  o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.rwb:hover {
+     transform:scale(1.1);
+}
+
+.ford{
+  width: 100%;
+  object-fit: fill;
+  image-rendering: smooth;
+  webkit-transition: all 0.2s;
+  moz-transition: all 0.2s;
+  ms-transition: all 0.2s;
+  o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.ford:hover {
+     transform:scale(1.1);
+}
+.mercedes{
+  width: 100%;
+  object-fit: fill;
+  image-rendering: smooth;
+  webkit-transition: all 0.2s;
+  moz-transition: all 0.2s;
+  ms-transition: all 0.2s;
+  o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.mercedes:hover {
+     transform:scale(1.1);
+}
+
+
